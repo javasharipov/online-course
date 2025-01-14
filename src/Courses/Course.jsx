@@ -35,7 +35,7 @@ const Course = () => {
 						<div key={card.id} className='flex items-center w-[600px] h-[214px] shadow cursor-pointer'>
 						<img src={card.image} alt='' />
 						<div className='flex flex-col gap-5 p-8'>
-							<span style={{background:card.profession.color}} className='w-20 h-6 bg-[] rounded text-white text-center p-2'>{card.profession.sphere}</span>
+							<span style={{background:card.profession.color}} className='w-20 h-6 bg-[] rounded text-white text-center '>{card.profession.sphere}</span>
 							<h5 className='font-bold text-xl'>{card.profession.title}</h5>
 							<div className='flex gap-2'>
 								<strong className='text-[#ff6565] text-lg font-bold'>${card.price}</strong>
