@@ -1,6 +1,6 @@
 import React from 'react'
 import logoImage from '../assets/logo.svg'
-import accountImage from '../assets/Profile.svg'J
+import accountImage from '../assets/Profile.svg'
 import { LINKS } from '../static'
 
 const Header = () => {
